@@ -1,3 +1,37 @@
 name: Gauge
 markdown: redcarpet
-highlighter: pygments
+redcarpet:
+    extensions: [
+        'no_intra_emphasis',
+        'fenced_code_blocks',
+        'autolink',
+        'strikethrough',
+        'superscript',
+        'with_toc_data',
+        'tables',
+        'hardwrap'
+    ]
+
+
+# Default categories (in order) to appear in the navigation
+sections: [
+    ['intro', "Introduction"],
+    ['spec', 'Specifications'],
+]
+
+baseurl: ''
+
+# Enable/show navigation. There are there options:
+#   0 - always hide
+#   1 - always show
+#   2 - show only if posts are present
+navigation: 2
+
+# Dates are not included in permalinks
+permalink: none
+
+# Syntax highlighting
+highlighter: rouge
+
+# Since these are pages, it doesn't really matter
+future: true

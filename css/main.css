@@ -158,3 +158,23 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+
+body {
+    font-weight: 400;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+pre, code {
+    border: none;
+    border-radius: 0;
+    background-color: #f9f9f9;
+    font-size: 0.85em;
+}
+
+pre {
+    font-size: 1em;
+}
+
+code {
+    color: inherit;
+}
